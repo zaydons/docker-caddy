@@ -5,18 +5,6 @@ A powerful open source web server (with Linode & Cloudflare DNS support).
 - Includes `tosie`'s [dns-linode plugin](https://github.com/tosie/caddy-dns-linode).
 - Includes ` caddy-dns`'s [ cloudflare plugin](https://github.com/caddy-dns/cloudflare).
 
-## Dockerfile
-```
-FROM docker.io/library/caddy:2.6.4-builder-alpine AS builder
-
-RUN xcaddy build \
-    --with github.com/tosie/caddy-dns-linode \
-    --with github.com/caddy-dns/cloudflare
-
-FROM docker.io/library/caddy:2.6.4-alpine
-
-COPY --from=builder /usr/bin/caddy /usr/bin/caddy
-```
 
 ## Caddyfile
 You can generate a `Personal Access Token` from your [Linode Dashboard](https://cloud.linode.com/profile/tokens).
