@@ -1,7 +1,7 @@
 # Caddy
 A powerful open source web server (with Linode & Cloudflare DNS support).
 
-- Built from the [offical caddy image](https://registry.hub.docker.com/_/caddy) using the following Dockerfile.
+- Built from the [offical caddy image](https://hub.docker.com/_/caddy) using the following Dockerfile.
 - Includes `tosie`'s [dns-linode plugin](https://github.com/tosie/caddy-dns-linode).
 - Includes ` caddy-dns`'s [ cloudflare plugin](https://github.com/caddy-dns/cloudflare).
 
