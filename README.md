@@ -4,7 +4,7 @@ A powerful open source web server (with Linode, Cloudflare, & Route53 DNS suppor
 - Built from the [offical caddy image](https://hub.docker.com/_/caddy) using the following Dockerfile.
 - Includes `caddy-dns`'s [linode plugin](https://github.com/caddy-dns/linode).
 - Includes `caddy-dns`'s [cloudflare plugin](https://github.com/caddy-dns/cloudflare).
-- Includes `ryantiger658`'s [route53](github.com/ryantiger658/route53)
+- Includes `ryantiger658`'s [route53 plugin](https://github.com/ryantiger658/route53)
 
 
 ## Caddyfile
