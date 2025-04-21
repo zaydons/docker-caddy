@@ -1,4 +1,4 @@
-ARG VERSION=2.8.4
+ARG VERSION=2.9.1
 
 FROM docker.io/library/caddy:${VERSION}-builder-alpine AS builder
 
