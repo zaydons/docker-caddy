@@ -1,4 +1,6 @@
 # Caddy
+> Archiving this repo until I can get time to fix all the Actions issues
+
 A powerful open source web server (with Linode, Cloudflare, & Route53 DNS support).
 
 - Built from the [offical caddy image](https://hub.docker.com/_/caddy) using the following Dockerfile.
